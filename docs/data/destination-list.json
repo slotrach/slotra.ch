@@ -1,0 +1,229 @@
+{
+  "generated_at": "2026-03-30T05:24:40.769Z",
+  "destinations": [
+    {
+      "module": "switzerland",
+      "destination": "Zurich",
+      "chinese": "苏黎世",
+      "type": "city",
+      "mentions": 20,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Lucerne",
+      "chinese": "琉森/卢塞恩",
+      "type": "city",
+      "mentions": 21,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Bern",
+      "chinese": "伯尔尼",
+      "type": "city",
+      "mentions": 5,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Adelboden",
+      "chinese": "阿德尔博登",
+      "type": "region",
+      "mentions": 1,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Engelberg",
+      "chinese": "英格堡",
+      "type": "region",
+      "mentions": 2,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Morschach",
+      "chinese": "莫尔沙赫",
+      "type": "region",
+      "mentions": 2,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Montreux",
+      "chinese": "蒙特勒",
+      "type": "city",
+      "mentions": 5,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Zermatt",
+      "chinese": "采尔马特",
+      "type": "town",
+      "mentions": 7,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Grindelwald",
+      "chinese": "格林德瓦",
+      "type": "town",
+      "mentions": 5,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Brienz",
+      "chinese": "布里恩茨",
+      "type": "town",
+      "mentions": 7,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Interlaken",
+      "chinese": "因特拉肯",
+      "type": "town",
+      "mentions": 1,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Spiez",
+      "chinese": "施皮茨",
+      "type": "town",
+      "mentions": 3,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Thun",
+      "chinese": "图恩",
+      "type": "city",
+      "mentions": 2,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Geneva",
+      "chinese": "日内瓦",
+      "type": "city",
+      "mentions": 2,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Lavaux",
+      "chinese": "拉沃",
+      "type": "region",
+      "mentions": 5,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Rigi",
+      "chinese": "瑞吉山",
+      "type": "mountain",
+      "mentions": 7,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Titlis",
+      "chinese": "铁力士山",
+      "type": "mountain",
+      "mentions": 3,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "Oeschinensee",
+      "chinese": "厄希嫩湖",
+      "type": "lake",
+      "mentions": 2,
+      "images": 3
+    },
+    {
+      "module": "switzerland",
+      "destination": "First (Grindelwald)",
+      "chinese": "First 峰",
+      "type": "mountain",
+      "mentions": 11,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Beijing",
+      "chinese": "北京",
+      "type": "city",
+      "mentions": 59,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Badaling",
+      "chinese": "八达岭",
+      "type": "region",
+      "mentions": 9,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Xi'an",
+      "chinese": "西安",
+      "type": "city",
+      "mentions": 51,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Chengdu",
+      "chinese": "成都",
+      "type": "city",
+      "mentions": 35,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Dujiangyan",
+      "chinese": "都江堰",
+      "type": "city",
+      "mentions": 14,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Hangzhou",
+      "chinese": "杭州",
+      "type": "city",
+      "mentions": 21,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Suzhou",
+      "chinese": "苏州",
+      "type": "city",
+      "mentions": 17,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Zhouzhuang",
+      "chinese": "周庄",
+      "type": "water town",
+      "mentions": 11,
+      "images": 3
+    },
+    {
+      "module": "china",
+      "destination": "Shanghai",
+      "chinese": "上海",
+      "type": "city",
+      "mentions": 52,
+      "images": 3
+    }
+  ]
+}
