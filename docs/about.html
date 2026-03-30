@@ -16,7 +16,7 @@
     <div class="shell top-contact-inner">
       <p class="contact-note" data-i18n="contactNote">Talk to our travel team</p>
       <div class="top-contact-actions">
-        <a class="top-email" href="mailto:yan@slatra.ch">yan@slatra.ch</a>
+        <a class="top-email" href="#" data-email-link="true" data-i18n="contactFab">Contact</a>
         <nav class="top-page-nav" aria-label="Primary">
           <a class="top-page-link" href="./switzerland.html" data-i18n="topNavSwiss">Switzerland</a>
           <a class="top-page-link" href="./china.html" data-i18n="topNavChina">China</a>
@@ -90,7 +90,7 @@
         <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
         <h2 class="section-title" data-i18n="contactTitle">Plan With Our Team</h2>
         <p class="contact-text" data-i18n="contactText">Tell us where you want to go, how you like to travel and who is joining. We will prepare a private proposal around you.</p>
-        <a class="btn-primary" href="mailto:yan@slatra.ch" data-i18n="contactButton">Email A Travel Designer</a>
+        <a class="btn-primary" href="#" data-email-link="true" data-i18n="contactButton">Email A Travel Designer</a>
       </div>
     </section>
   </main>
@@ -114,7 +114,7 @@
     </div>
   </footer>
 
-  <a class="contact-fab" href="mailto:yan@slatra.ch" aria-label="Email Slow Travel Swiss" data-i18n="contactFab" data-i18n-aria-label="contactFabAria">Contact</a>
+  <a class="contact-fab" href="#" data-email-link="true" aria-label="Email Slow Travel Swiss" data-i18n="contactFab" data-i18n-aria-label="contactFabAria">Contact</a>
 
   <script>
     (function () {
@@ -327,6 +327,21 @@
           applyLanguage(button.getAttribute("data-lang"));
         });
       });
+
+      function bindEmailLinks() {
+        var user = String.fromCharCode(121, 97, 110);
+        var domain = String.fromCharCode(115, 108, 97, 116, 114, 97, 46, 99, 104);
+        var address = user + String.fromCharCode(64) + domain;
+
+        document.querySelectorAll("[data-email-link]").forEach(function (link) {
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            window.location.href = "mailto:" + address;
+          });
+        });
+      }
+
+      bindEmailLinks();
 
       var saved = marketDefaultLang;
       try { saved = localStorage.getItem(marketLangKey) || marketDefaultLang; } catch (e) {}

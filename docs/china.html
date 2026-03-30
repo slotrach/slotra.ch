@@ -16,7 +16,7 @@
     <div class="shell top-contact-inner">
       <p class="contact-note" data-i18n="contactNote">Talk to our travel team</p>
       <div class="top-contact-actions">
-        <a class="top-email" href="mailto:yan@slatra.ch">yan@slatra.ch</a>
+        <a class="top-email" href="#" data-email-link="true" data-i18n="contactFab">Contact</a>
         <nav class="top-page-nav" aria-label="Primary">
           <a class="top-page-link" href="./switzerland.html" data-i18n="topNavSwiss">Switzerland</a>
           <a class="top-page-link is-active" href="./china.html" aria-current="page" data-i18n="topNavChina">China</a>
@@ -46,7 +46,7 @@
         <h1 class="hero-title reveal reveal-2" data-i18n="heroTitle">Tailor-Made China, Curated With Elegance</h1>
         <p class="mini-note reveal reveal-2" data-i18n="heroSubtitle">From imperial heritage to modern skylines, every journey is designed around your pace, interests and preferred travel style.</p>
         <div class="hero-actions reveal reveal-3">
-          <a class="btn-primary" href="mailto:yan@slatra.ch" data-i18n="ctaPrimary">Start Your Private Plan</a>
+          <a class="btn-primary" href="#" data-email-link="true" data-i18n="ctaPrimary">Start Your Private Plan</a>
         </div>
         <div class="page-nav reveal reveal-3">
           <a href="./china.html" data-i18n="navChina">China Journeys</a>
@@ -161,7 +161,7 @@
         <p class="eyebrow" data-i18n="contactEyebrow">Contact</p>
         <h2 class="section-title" data-i18n="contactTitle">Start Planning With A Travel Designer</h2>
         <p class="contact-text" data-i18n="contactText">Share your priorities, preferred pace and travel style. We will prepare a private proposal designed around you.</p>
-        <a class="btn-primary" href="mailto:yan@slatra.ch" data-i18n="contactButton">Email A Travel Designer</a>
+        <a class="btn-primary" href="#" data-email-link="true" data-i18n="contactButton">Email A Travel Designer</a>
       </div>
     </section>
   </main>
@@ -183,7 +183,7 @@
     </div>
   </footer>
 
-  <a class="contact-fab" href="mailto:yan@slatra.ch" aria-label="Email Slow Travel Swiss" data-i18n="contactFab" data-i18n-aria-label="contactFabAria">Contact</a>
+  <a class="contact-fab" href="#" data-email-link="true" aria-label="Email Slow Travel Swiss" data-i18n="contactFab" data-i18n-aria-label="contactFabAria">Contact</a>
 
   <script>
     (function () {
@@ -458,6 +458,21 @@
           heroLayers[heroIdx].classList.add("is-active");
         }, 5000);
       }
+
+      function bindEmailLinks() {
+        var user = String.fromCharCode(121, 97, 110);
+        var domain = String.fromCharCode(115, 108, 97, 116, 114, 97, 46, 99, 104);
+        var address = user + String.fromCharCode(64) + domain;
+
+        document.querySelectorAll("[data-email-link]").forEach(function (link) {
+          link.addEventListener("click", function (event) {
+            event.preventDefault();
+            window.location.href = "mailto:" + address;
+          });
+        });
+      }
+
+      bindEmailLinks();
 
       var saved = marketDefaultLang;
       try { saved = localStorage.getItem(marketLangKey) || marketDefaultLang; } catch (e) {}
