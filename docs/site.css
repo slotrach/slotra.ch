@@ -103,19 +103,6 @@ a {
   overflow-wrap: anywhere;
 }
 
-.top-email-image {
-  border-bottom: 0;
-  padding-bottom: 0;
-  display: inline-flex;
-  align-items: center;
-  line-height: 0;
-}
-
-.top-email-image img {
-  height: 22px;
-  width: auto;
-}
-
 .top-explore-link {
   display: inline-flex;
   align-items: center;
@@ -431,6 +418,10 @@ a {
   border-top: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+.contact .shell {
+  text-align: center;
+}
+
 .contact-grid {
   display: grid;
   grid-template-columns: 1.15fr 1fr;
@@ -439,19 +430,30 @@ a {
 }
 
 .contact-text {
-  margin: 0 0 var(--space-8);
+  margin: 0 auto var(--space-8);
   max-width: 60ch;
 }
 
 .contact-email-image {
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   line-height: 0;
-  margin-bottom: var(--space-6);
+  margin: 0 auto var(--space-6);
 }
 
 .contact-email-image img {
-  width: min(320px, 80vw);
+  width: min(340px, 72vw);
   height: auto;
+  background: var(--paper);
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: var(--radius-md);
+  padding: 0.5rem 0.65rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.contact .btn-primary {
+  margin: 0 auto;
 }
 
 .qr-grid {
@@ -1035,14 +1037,6 @@ a {
     display: none;
   }
 
-  .top-email-image {
-    display: inline-flex;
-  }
-
-  .top-email-image img {
-    height: 18px;
-  }
-
   .top-page-nav {
     flex: 1;
     min-width: 0;
@@ -1107,7 +1101,7 @@ a {
   }
 
   .contact-email-image img {
-    width: min(260px, 86vw);
+    width: min(290px, 86vw);
   }
 
   .contact-fab {
