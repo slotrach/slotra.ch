@@ -103,6 +103,19 @@ a {
   overflow-wrap: anywhere;
 }
 
+.top-email-image {
+  border-bottom: 0;
+  padding-bottom: 0;
+  display: inline-flex;
+  align-items: center;
+  line-height: 0;
+}
+
+.top-email-image img {
+  height: 22px;
+  width: auto;
+}
+
 .top-explore-link {
   display: inline-flex;
   align-items: center;
@@ -428,6 +441,17 @@ a {
 .contact-text {
   margin: 0 0 var(--space-8);
   max-width: 60ch;
+}
+
+.contact-email-image {
+  display: inline-flex;
+  line-height: 0;
+  margin-bottom: var(--space-6);
+}
+
+.contact-email-image img {
+  width: min(320px, 80vw);
+  height: auto;
 }
 
 .qr-grid {
@@ -1003,18 +1027,20 @@ a {
     gap: var(--space-2);
   }
 
-  .page-swiss .top-contact-actions {
-    width: auto;
-    flex: 1;
-    justify-content: flex-end;
-  }
-
   .top-logo img {
     height: 20px;
   }
 
   .top-email {
     display: none;
+  }
+
+  .top-email-image {
+    display: inline-flex;
+  }
+
+  .top-email-image img {
+    height: 18px;
   }
 
   .top-page-nav {
@@ -1078,6 +1104,10 @@ a {
   .btn-outline {
     width: 100%;
     min-width: 0;
+  }
+
+  .contact-email-image img {
+    width: min(260px, 86vw);
   }
 
   .contact-fab {
