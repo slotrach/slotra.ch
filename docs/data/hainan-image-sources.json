@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-04-01T00:00:00Z",
+  "provider": {
+    "name": "Unsplash",
+    "website": "https://unsplash.com",
+    "license": "https://unsplash.com/license"
+  },
+  "images": [
+    {
+      "file": "assets/destinations/hainan-sanya/sanya-01.jpg",
+      "id": "cuvSyTHb6_8",
+      "photographer": "carl wong",
+      "source_url": "https://unsplash.com/photos/cuvSyTHb6_8"
+    },
+    {
+      "file": "assets/destinations/hainan-sanya/sanya-02.jpg",
+      "id": "WWHC6Aw9jo4",
+      "photographer": "chantal",
+      "source_url": "https://unsplash.com/photos/WWHC6Aw9jo4"
+    },
+    {
+      "file": "assets/destinations/hainan-sanya/sanya-03.jpg",
+      "id": "I6v1azK88V4",
+      "photographer": "Arthur Tseng",
+      "source_url": "https://unsplash.com/photos/I6v1azK88V4"
+    },
+    {
+      "file": "assets/destinations/hainan-haikou/haikou-01.jpg",
+      "id": "BIc5GQTetN8",
+      "photographer": "正德 张",
+      "source_url": "https://unsplash.com/photos/BIc5GQTetN8"
+    },
+    {
+      "file": "assets/destinations/hainan-haikou/haikou-02.jpg",
+      "id": "TNabYf9wIGA",
+      "photographer": "Wang shaohong",
+      "source_url": "https://unsplash.com/photos/TNabYf9wIGA"
+    },
+    {
+      "file": "assets/destinations/hainan-haikou/haikou-03.jpg",
+      "id": "8_t-x7VtgGU",
+      "photographer": "Martin Katler",
+      "source_url": "https://unsplash.com/photos/8_t-x7VtgGU"
+    },
+    {
+      "file": "assets/destinations/hainan-wenchang-qionghai/wenchang-01.jpg",
+      "id": "qjgdslbEn-I",
+      "photographer": "Tim Mossholder",
+      "source_url": "https://unsplash.com/photos/qjgdslbEn-I"
+    },
+    {
+      "file": "assets/destinations/hainan-wenchang-qionghai/wenchang-02.jpg",
+      "id": "NVWyN8GamCk",
+      "photographer": "Bill Jelen",
+      "source_url": "https://unsplash.com/photos/NVWyN8GamCk"
+    },
+    {
+      "file": "assets/destinations/hainan-wenchang-qionghai/qionghai-01.jpg",
+      "id": "PTa2YyqPc0s",
+      "photographer": "waa towaw",
+      "source_url": "https://unsplash.com/photos/PTa2YyqPc0s"
+    },
+    {
+      "file": "assets/destinations/hainan-lingshui/lingshui-01.jpg",
+      "id": "TP_DdqKT3iA",
+      "photographer": "Zoe Jackson",
+      "source_url": "https://unsplash.com/photos/TP_DdqKT3iA"
+    },
+    {
+      "file": "assets/destinations/hainan-lingshui/lingshui-02.jpg",
+      "id": "X_v4BmMDS_U",
+      "photographer": "HAIPING WU",
+      "source_url": "https://unsplash.com/photos/X_v4BmMDS_U"
+    },
+    {
+      "file": "assets/destinations/hainan-lingshui/lingshui-03.jpg",
+      "id": "xZ1mt3TvvV0",
+      "photographer": "Hoi An and Da Nang Photographer",
+      "source_url": "https://unsplash.com/photos/xZ1mt3TvvV0"
+    }
+  ]
+}

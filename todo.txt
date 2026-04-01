@@ -1,0 +1,11 @@
+1，修改瑞士页所呈现的内容改为：新增 重点突出中国海南的旅游资源，当前显示的内容为子界面内容
+海南的内容参考：海南，文昌的中国火箭发射，海口的传统和城市，陵水的海上项目和新鲜好吃的海鲜，三亚的千古情
+Here is the English version:
+
+"Hainan Island, as China’s Free Trade Port, is known as 'China’s Hawaii.' It is a beautiful tropical island with a summer-like climate all year round, ideal for travel even in winter. Here, you can enjoy the stunning beaches of Sanya, the vibrant city life of Haikou, the rocket launch site in Wenchang, the hot springs of Qionghai, and the resorts in Lingshui, along with a rich variety of tropical fruits and cuisine. Hainan’s iconic dishes, such as coconut chicken, Wenchang chicken, and Dongshan mutton, along with the Li ethnic group’s betel leaf specialties, make it truly unforgettable. Moreover, the island also hosts China’s national rocket launch site in Wenchang, adding a futuristic allure. Here, every flavor and every view is a harmony of culture, nature, and innovation—an unforgettable journey for both the palate and the soul.”
+
+中文版本
+
+“海南岛，作为中国的自由贸易港，被誉为‘中国的夏威夷’，是一座美丽的热带海岛，四季如夏，气候温暖，冬季也适合旅行。这里不仅拥有三亚的迷人海滩，海口的都市活力，文昌的火箭发射基地，琼海的温泉，以及陵水的度假村，更有丰富的热带水果和美食。海南的椰子鸡、文昌鸡、东山羊等地道佳肴，以及黎族的槟榔叶风味，都让人难以忘怀。此外，这座岛还承载着创新与未来，是一次味蕾与心灵共鸣的难忘旅程。”
+
+后就针对这些文字添加图片就好了。记得是按照之前的实现，去无版权的网站站对应的景点和美食的内容
