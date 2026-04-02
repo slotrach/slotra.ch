@@ -129,7 +129,7 @@ a {
 .top-contact-actions {
   display: inline-flex;
   align-items: center;
-  gap: var(--space-4);
+  gap: var(--space-3);
   min-width: 0;
 }
 
@@ -148,7 +148,7 @@ a {
 .top-page-nav {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.28rem;
   min-width: 0;
 }
 
@@ -156,12 +156,12 @@ a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: 32px;
-  padding: 0 0.72rem;
+  min-height: 31px;
+  padding: 0 0.58rem;
   border: 1px solid rgba(0, 0, 0, 0.25);
   border-radius: 999px;
-  font-size: 0.62rem;
-  letter-spacing: 0.1em;
+  font-size: 0.58rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   font-weight: 700;
   white-space: nowrap;
@@ -1056,16 +1056,16 @@ a {
     flex: 1;
     min-width: 0;
     min-height: 28px;
-    padding: 0 0.28rem;
-    font-size: 0.52rem;
-    letter-spacing: 0.05em;
+    padding: 0 0.18rem;
+    font-size: 0.48rem;
+    letter-spacing: 0.03em;
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
   }
 
   .lang-btn {
-    min-width: 42px;
+    min-width: 38px;
     min-height: 28px;
     padding: 0 0.45rem;
     font-size: 0.62rem;

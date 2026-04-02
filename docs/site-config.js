@@ -1,6 +1,6 @@
 /*
   Deployment market switch
-  - Default: EU deployment (promote China journeys)
+  - Default: EU deployment (promote Hainan / China page)
   - Set market to "cn" for China deployment (promote Switzerland journeys)
   - Auto IP detection enabled by default on index page:
     CN IP => cn, others => eu
